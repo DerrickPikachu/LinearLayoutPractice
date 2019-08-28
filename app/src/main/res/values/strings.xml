@@ -3,4 +3,7 @@
     <string name="first_name">姓:</string>
     <string name="first_name_input">請輸入姓名</string>
     <string name="last_name">名:</string>
+    <string name="Phone">電話:</string>
+    <string name="phone_input">(02)12345678</string>
+    <string name="confirm">confirm</string>
 </resources>
