@@ -6,4 +6,6 @@
     <string name="Phone">電話:</string>
     <string name="phone_input">(02)12345678</string>
     <string name="confirm">confirm</string>
+    <string name="password">密碼:</string>
+    <string name="password_hint">Please input your password</string>
 </resources>
