@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:text="@string/first_name"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -25,24 +27,26 @@
             android:id="@+id/firstName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="7"
+            android:layout_weight="12"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/first_name_input"
             android:inputType="textPersonName"
             android:singleLine="true" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:text="@string/last_name"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -51,22 +55,24 @@
             android:id="@+id/lastName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="7"
+            android:layout_weight="12"
             android:ems="10"
             android:hint="@string/first_name_input"
             android:inputType="textPersonName" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:text="@string/Phone"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -75,7 +81,7 @@
             android:id="@+id/phone"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="7"
+            android:layout_weight="12"
             android:ems="10"
             android:hint="@string/phone_input"
             android:inputType="phone"
@@ -86,13 +92,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:text="@string/password"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -101,17 +108,19 @@
             android:id="@+id/editText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="7"
+            android:layout_weight="12"
             android:ems="10"
             android:hint="@string/password_hint"
             android:inputType="textPassword"
             android:singleLine="true" />
+
     </LinearLayout>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:onClick="printInformation"
         android:text="@string/confirm" />
 
@@ -120,4 +129,5 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:textSize="18sp" />
+
 </LinearLayout>
